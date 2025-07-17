@@ -39,8 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
     margin: 2em;
+    padding: 2rem;
     background-color: var(--header-bg-color);
     box-shadow: 
         5rem 2rem 10rem var(--box-shadow-color),
@@ -94,7 +94,6 @@
 #portfolio-section h1 {
     flex: 0 0 100%;
     text-align: center;
-    /* color: var(--body-text-color); */
 }
 
 #portfolio-section .card {
@@ -114,9 +113,13 @@
 #elevator-pitch-section {
     grid-area: elevator-pitch-section;
     margin: 2em;
-    /* background-color: var(--header-bg-color); */
+    padding: 2rem;
     color: var(--header-light-text-color);
-    /* box-shadow: 5rem 2rem 10rem var(--box-shadow-color); */
+    border-radius: 2rem;
+    box-shadow: 
+        1rem 2rem 8rem var(--box-shadow-color),
+        -5rem -2rem 8rem var(--box-shadow-color)
+    ;
 }
 
 #elevator-pitch-section h1 {
