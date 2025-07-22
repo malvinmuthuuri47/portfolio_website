@@ -130,6 +130,15 @@
     color: var(--body-text-color);
 }
 
+#contact-me {
+    text-align: center;
+}
+
+#contact-me a {
+    text-decoration: none;
+    color: var(--anchor-tag-color)
+}
+
 @media (max-width: 1172px)
 {
     #main-container {
